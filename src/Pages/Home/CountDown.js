@@ -12,13 +12,13 @@ class SimpleCountdownTimer extends React.Component {
       noPoints: true,
     };
     return (
-      <div>
+      <div className='countdown-main'>
         <CountdownTimer noPoints count={5432} size={40}/>
         <div>
-          <ul className='p-0'>
-            <li>Day</li>
-            <li>Hour</li>
-            <li>Minuts</li>
+          <ul className='p-0 pt-4'>
+            <li className='pr-5 pl-1'>Day</li>
+            <li className='pr-4'>Hour</li>
+            <li className='pr-4'>Minuts</li>
             <li>Seconds</li>
           </ul>
         </div>

@@ -80,7 +80,7 @@ export default class Gallery extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col xs='6' lg='4'>
+                        <Col xs='12' lg='4'>
                             <Card>
                             <Link><Card.Img  className='g-img' variant="top" src={Gallery3} /></Link>
                                 <Card.Body className="pl-3">
@@ -105,7 +105,7 @@ export default class Gallery extends Component {
 
                     {/* row 2*/}
                     <Row className="gallery-inner"> 
-                        <Col xs='4'>
+                    <Col xs='12' lg='4'>
                             <Card>
                             <Link><Card.Img  className='g-img' variant="top" src={Gallery4} /></Link>
                                 <Card.Body className="pl-3">
@@ -125,7 +125,7 @@ export default class Gallery extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col xs='4'>
+                        <Col xs='12' lg='4'>
                             <Card>
                             <Link><Card.Img variant="top" src={Gallery5} /></Link>
                                 <Card.Body className="pl-3">
@@ -145,7 +145,7 @@ export default class Gallery extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col xs='4'>
+                        <Col xs='12' lg='4'>
                             <Card>
                             <Link><Card.Img variant="top" src={Gallery6} /></Link>
                                 <Card.Body className="pl-3">

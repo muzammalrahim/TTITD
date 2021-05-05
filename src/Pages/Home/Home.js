@@ -37,7 +37,7 @@ export default class Home extends Component {
                 {/* Gallery */}
 
                 {/* Counter */}
-                <div className='counter-main pt-5'>
+                <div className='counter-main pt-5 pb-5'>
                     <Container>
                         <Row>
                             <Col xs={12} lg={8}>
@@ -87,7 +87,7 @@ export default class Home extends Component {
                 {/* Guest Editor*/}
 
                 {/* Art Section*/}
-                <div className="art-sec">
+                <div className="art-sec pt-5">
                     <Container>
                     <div className='inner-content'>
                         <h3>Collection</h3>
@@ -119,7 +119,7 @@ export default class Home extends Component {
                 {/* About*/}
 
                 {/* New Release*/}
-                <div className='new-release'>
+                <div className='new-release pt-5 '>
                     <Container>
                         <div className='inner-content'>
                             <h3>New Release by</h3>
@@ -155,7 +155,7 @@ export default class Home extends Component {
                 {/* Become Artist*/}
 
                 {/* Spot light sec*/}
-                <div className='spot-light'>
+                <div className='spot-light pt-5'>
                     <Container>
                         <div className='inner-content'>
                             <h3>Artist spotlight</h3>
