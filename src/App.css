@@ -1,38 +1,339 @@
-.App {
-  text-align: center;
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none !important;
+}
+.mob-menu {
+    display: none;
+}
+.mobile-f-link{
+    display: none;
+}
+.mob-topbar{
+    display: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Header */
+.web-logo{
+    width: 80px;
+}
+.header-main nav.navbar.navbar-expand-lg.navbar-light {
+    width: 100%;
+}
+h2{
+    color: #555555;
+}
+.home-menu .nav-link{
+    color:#8b8989;
+    padding: 0;
+}
+.home-menu {
+    float: right;
+}
+.header-main  .menu-right-icons .fa{
+    color: #333333;
+}
+.header-main  .mr-auto.navbar-nav {
+    margin-left: 38%;
+}
+.header-main  .brand-name {
+    text-align: center;
+}
+.header-main .nav-link:hover {
+    text-decoration: none;
+    color: #000;
+}
+.menu-right-icons{
+    cursor: pointer;
+}
+.cart-div{
+    display: none;
+}
+.cart-main:hover + .cart-div {
+    display: block;
+}
+/* Header */
+
+/* Banner img */
+.img-wrap{
+    position: relative;
+    overflow: hidden;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../src/images/banner_img.jpg);
+    background-position: center center;
+ background-size: cover;
+ height: 100%;
+ width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ea9670a8;
+    opacity: 0.5;
+    width: 100%;
+    height: 400px;
+} */
+.img-wrap .banner-inner{
+    /* position: absolute;
+    left: 9%;
+    top: 20%; */
+}
+.img-wrap .banner-inner h1 {
+    color: #fff;
+    text-transform: uppercase;
+}
+/* Banner img */
+
+/* Gallery */
+.inner-title{
+    font-size: 15px;
+    color: #717171;
+    text-transform: capitalize;
+}
+.g-btns{
+    text-align: right;
+}
+.g-btns .web-buttons {
+    box-shadow: 3px 3px 5px 1px #b3aaaa
+}
+.web-buttons {
+    background: #ffffff;
+    padding: 17px 13px;
+}
+.web-buttons a{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+}
+.collection-btn{
+    background: #000000;
+    color: #ffffff;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.learn-more-btn{
+    background: #fdf9f8;
+    color: #000000;
+    text-decoration: underline;
+    padding: 10px;
+    border-radius: 5px;
+}
+.right-side{
+    text-align: right;
+}
+.gallery-inner .card{
+   border: none !important;
+}
+.gallery-inner p{
+    color: #717171;
+    font-size: 20px;
+    font-weight: 400;
+}
+.heading-inner{
+    font-weight: 500 !important;
+}
+.gallery-btn a {
+    text-align: center;
+    border: 1px solid #007bff;
+    padding: 8px 17px;
+}
+.gallery-btn a:hover{
+    border:1px solid #292929;
+    color: #292929;
+}
+.g-img{
+    border-radius: 4px;
+}
+/* Gallery */
+
+/* Count Down*/
+.counter-main{
+ background: url(../src/images/counter-bg.jpg);
+ background-position: center center;
+ background-size: cover;
+ width: 100%;
+ height: 460px;
+}
+.counter-main h2 {
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: 300;
+}
+.counter-main .gallery-btn a {
+    text-align: center;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 8px 17px;
+}
+.counter-main h6{
+    color: #ffffff;
+}
+.counter-main span.count {
+    background: none !important;
+    color: #fff !important;
+    padding-right: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Count Down*/
+
+/* Guest Editor */
+.guest-editor{
+    background: url(../src/images/editor-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+.inner-content h3{
+    font-size: 50px;
+    color: #ffffff;
+}
+.inner-content .gallery-btn a{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+/* Guest Editor */
+
+/* 3d-art-sec */
+.art-sec {
+ background: url(../src/images/3d-bg.jpg);
+ background-position: center center;
+ background-size: cover;
+ width: 100%;
+ height: 400px;
+}
+/* 3d-art-sec */
+
+/* new-release */
+.new-release{
+    background: url(../src/images/release-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;  
+}
+/* new-release */
+
+/* Become Artist */
+.become-artist{
+    background:#200b2c;
+    color: #ffffff;
+}
+/* Become Artist */
+
+/* spot-light */
+.spot-light{
+    background: url(../src/images/spot-light.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 400px; 
+}
+     
+/* spot-light */
+
+
+ /* Coupen */
+ .discount-coupen {
+     background: #292929;
+}
+.discount-coupen  .subs-form p {
+    font-size: 10px;
+    line-height: 19px;
+}
+/* Coupen */
+
+
+/* Footer */
+.footer-img{
+    width: 180px;
+}
+.footer-main{
+    background: #ffffff;   
+}
+.footer-main ul li {
+    line-height: 28px;
+}
+.footer-links h4{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #333333;
+}
+.footer-links li a{
+    font-size: 12px;
+    color: #333333;
+    font-weight: 500;
+}
+.footer-main a{
+    color: #333333;
+}
+/* footer content */
+.footer-social-links li{
+    display: inline-block;
+}
+/* copy-right */
+.copy-rigt{
+    background: #333333;
+}
+.copy-rigt p{
+    color: #777777;
 }
 
-.App-link {
-  color: #61dafb;
+/* copy-right */
+/* Footer */
+
+/* ..........Mobile Quries............ */
+
+@media only screen and (max-width: 1200px) {
+    /* .img-wrap .banner-inner {
+        text-align: center;
+    } */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media only screen and (max-width: 991px) {
+    .web-menu{
+        display: none;
+    }    
+    .mob-menu{
+        display: block;
+    }
+    .mob-logo{
+        width: 80px;
+    }
+    .navbar-light .navbar-toggler {
+        font-size: 30px;
+        padding: 0;
+        border: none !important;
+        margin-top: 18px;
+    }   
+   
+    .img-wrap .banner-inner {
+        text-align: center;
+    }
+    .img-wrap .banner-inner h1 {
+        font-size: 25px;
+    }
+    .web-buttons a {
+        font-size: 10px;
+    }
+
+    /* gallery */
+    .g-btns {
+        text-align: center;
+    }
+    .inner-title {
+        text-align: center;
+        padding: 0 0 34px 0;
+    }
+    /* gallery */
 }
+
+    /* ..........Mobile Quries............ */
