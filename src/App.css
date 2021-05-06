@@ -70,6 +70,7 @@ h2{
  background-size: cover;
  height: 100%;
  width: 100%;
+ padding: 60px 0 100px 0;
 }
 
 /* .overlay{
@@ -81,14 +82,15 @@ h2{
     width: 100%;
     height: 400px;
 } */
-.img-wrap .banner-inner{
-    /* position: absolute;
+/* .img-wrap .banner-inner{
+    position: absolute;
     left: 9%;
-    top: 20%; */
-}
+    top: 20%;
+} */
 .img-wrap .banner-inner h1 {
     color: #fff;
     text-transform: uppercase;
+    font-size: 3.8rem;
 }
 /* Banner img */
 
@@ -198,7 +200,7 @@ h2{
     background-position: center center;
     background-size: cover;
     width: 100%;
-    height: 400px;
+    height: 550px;
 }
 .inner-content h3{
     font-size: 50px;
@@ -216,7 +218,7 @@ h2{
  background-position: center center;
  background-size: cover;
  width: 100%;
- height: 400px;
+ height: 600px;
 }
 /* 3d-art-sec */
 
@@ -226,15 +228,35 @@ h2{
     background-position: center center;
     background-size: cover;
     width: 100%;
-    height: 400px;  
+    height: 600px;  
 }
 /* new-release */
 
+/* .join-community */
+.join-community .gallery-btn a{
+    color: #212529;
+    border: 1px solid #212529;
+}
+.join-community .gallery-btn a:hover{
+    background:#212529 ;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
 /* Become Artist */
 .become-artist{
     background:#200b2c;
     color: #ffffff;
 }
+.become-artist .gallery-btn a{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.become-artist .gallery-btn a:hover{
+    background:#ffffff ;
+    color: #212529;
+    border: 1px solid #212529;
+}
+
 /* Become Artist */
 
 /* spot-light */
@@ -243,7 +265,7 @@ h2{
     background-position: center center;
     background-size: cover;
     width: 100%;
-    height: 400px; 
+    height: 500px; 
 }
      
 /* spot-light */
@@ -367,6 +389,40 @@ padding: 11px 9px;
         font-size: 10px;
     }
 
+    /* mobile menu */
+    .home-menu .navbar {
+        display: block !important;
+    }
+    .home-menu .header-main .mr-auto.navbar-nav {
+        margin-left: 14% !important;
+    }
+    .home-menu .navbar-collapse {
+        position: absolute;
+        align-items: center;
+        z-index: 1;
+        background: #fff;
+        width: 170px;
+        right: -13px;
+        text-align: left;
+    }
+    .home-menu .navbar-nav {
+        padding: 23px 0 14px 22px;
+        box-shadow: 1px 1px 2px 1px #b3aaaa;
+    }
+    .home-menu nav.navbar.navbar-expand-lg.navbar-light{
+        position: relative;
+        right: -9px;
+    }
+    .home-menu .navbar-nav {
+        display: block;
+    }
+    .home-menu a.nav-link {
+        font-weight: 600;
+        font-size: 21px;
+        padding-bottom: 19px !important;
+    }
+    /* mobile menu */
+
     /* gallery */
     .g-btns {
         text-align: center;
@@ -383,13 +439,13 @@ padding: 11px 9px;
         line-height: 27px;
     }
     .guest-editor {
-        height: 230px;
+        height: 350px;
     }
     .art-sec {
-        height: 230px;
+        height: 350px;
     }
     .new-release {
-        height: 230px;
+        height: 350px;
     }
     .become-artist{
         text-align: center;
@@ -398,7 +454,7 @@ padding: 11px 9px;
         font-size: 25px;
     }
     .spot-light {
-        height: 230px;
+        height: 350px;
     }
     .join-community{
         text-align: center;

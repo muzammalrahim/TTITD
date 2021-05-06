@@ -8,7 +8,6 @@ import Gallery4 from '../../images/g4.jpg';
 import Gallery5 from '../../images/g5.jpg';
 import Gallery6 from '../../images/g6.jpg';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import ListIcon from '../../images/list-icon.png';
 import Avatar1 from '../../images/avatar1.png';
 import Avatar2 from '../../images/avatar2.png';
@@ -40,7 +39,7 @@ export default class Sales extends Component {
                     <Row className="pt-5 gallery-inner"> 
                         <Col xs='12' lg='4'>
                             <Card>
-                            <Link><Card.Img className='g-img' variant="top" src={Gallery1} /></Link>
+                            <Link><Card.Img className='g-img' variant="top" src={Gallery1} alt=""/></Link>
                                 <Card.Body className="pl-3">
                                     <Row>
                                         <Col xs='8' className="pl-0">
@@ -50,9 +49,9 @@ export default class Sales extends Component {
                                     </Row>
                                     <Row>
                                         <Col xs='8' className="pl-0">
-                                            <p><span className="pr-2"><img src={Avatar1}/></span>damnengine</p>
+                                            <p><span className="pr-2"><img src={Avatar1} alt=""/></span>damnengine</p>
                                         </Col>
-                                        <Col xs='4' className="right-side pr-0"><p><span className="pr-1"><img src={ListIcon}/></span>0.75</p></Col>
+                                        <Col xs='4' className="right-side pr-0"><p><span className="pr-1"><img src={ListIcon} alt=""/></span>0.75</p></Col>
                                     </Row>
                                    
                                 </Card.Body>
@@ -60,7 +59,7 @@ export default class Sales extends Component {
                         </Col>
                         <Col xs='12' lg='4'>
                             <Card>
-                            <Link><Card.Img  className='g-img' variant="top" src={Gallery2} /></Link>
+                            <Link><Card.Img  className='g-img' variant="top" src={Gallery2} alt=""/></Link>
                                 <Card.Body className="pl-3">
                                     <Row>
                                         <Col xs='8' className="pl-0">
@@ -70,9 +69,9 @@ export default class Sales extends Component {
                                     </Row>
                                     <Row>
                                         <Col xs='8' className="pl-0">
-                                            <p><span className="pr-2"><img src={Avatar2}/></span>worldlost</p>
+                                            <p><span className="pr-2"><img src={Avatar2} alt=""/></span>worldlost</p>
                                         </Col>
-                                        <Col xs='4' className="right-side pr-0"><p><span className="pr-1"><img src={ListIcon}/></span>0.40</p></Col>
+                                        <Col xs='4' className="right-side pr-0"><p><span className="pr-1"><img src={ListIcon} alt=""/></span>0.40</p></Col>
                                     </Row>
                                    
                                 </Card.Body>
@@ -80,7 +79,7 @@ export default class Sales extends Component {
                         </Col>
                         <Col xs='12' lg='4'>
                             <Card>
-                            <Link><Card.Img  className='g-img' variant="top" src={Gallery3} /></Link>
+                            <Link><Card.Img  className='g-img' variant="top" src={Gallery3} alt=""/></Link>
                                 <Card.Body className="pl-3">
                                     <Row>
                                         <Col xs='8' className="pl-0">
@@ -90,9 +89,9 @@ export default class Sales extends Component {
                                     </Row>
                                     <Row>
                                         <Col xs='8' className="pl-0">
-                                            <p><span className="pr-2"><img src={Avatar3}/></span>sabet</p>
+                                            <p><span className="pr-2"><img src={Avatar3} alt=""/></span>sabet</p>
                                         </Col>
-                                        <Col xs='4' className="right-side pr-0"><p><span className="pr-1"><img src={ListIcon}/></span>1.00</p></Col>
+                                        <Col xs='4' className="right-side pr-0"><p><span className="pr-1"><img src={ListIcon} alt=""/></span>1.00</p></Col>
                                     </Row>
                                    
                                 </Card.Body>
@@ -105,7 +104,7 @@ export default class Sales extends Component {
                     <Row className="gallery-inner"> 
                     <Col xs='12' lg='4'>
                             <Card>
-                            <Link><Card.Img  className='g-img' variant="top" src={Gallery4} /></Link>
+                            <Link><Card.Img  className='g-img' variant="top" src={Gallery4} alt=""/></Link>
                                 <Card.Body className="pl-3">
                                     <Row>
                                         <Col xs='8' className="pl-0">
@@ -115,9 +114,9 @@ export default class Sales extends Component {
                                     </Row>
                                     <Row>
                                         <Col xs='8' className="pl-0">
-                                            <p><span className="pr-2"><img src={Avatar4}/></span>damnengine</p>
+                                            <p><span className="pr-2"><img src={Avatar4} alt=""/></span>damnengine</p>
                                         </Col>
-                                        <Col xs='4' className="right-side pr-0"><p><span className="pr-1"><img src={ListIcon}/></span>0.75</p></Col>
+                                        <Col xs='4' className="right-side pr-0"><p><span className="pr-1"><img src={ListIcon} alt=""/></span>0.75</p></Col>
                                     </Row>
                                    
                                 </Card.Body>
@@ -135,9 +134,9 @@ export default class Sales extends Component {
                                     </Row>
                                     <Row>
                                         <Col xs='8' className="pl-0">
-                                            <p><span className="pr-2"><img src={Avatar5}/></span>worldlost</p>
+                                            <p><span className="pr-2"><img src={Avatar5} alt=""/></span>worldlost</p>
                                         </Col>
-                                        <Col xs='4' className="right-side pr-0"><p><span className="pr-1"><img src={ListIcon}/></span>0.40</p></Col>
+                                        <Col xs='4' className="right-side pr-0"><p><span className="pr-1"><img src={ListIcon} alt=""/></span>0.40</p></Col>
                                     </Row>
                                    
                                 </Card.Body>
@@ -145,7 +144,7 @@ export default class Sales extends Component {
                         </Col>
                         <Col xs='12' lg='4'>
                             <Card>
-                            <Link><Card.Img variant="top" src={Gallery6} /></Link>
+                            <Link><Card.Img variant="top" src={Gallery6} alt=""/></Link>
                                 <Card.Body className="pl-3">
                                     <Row>
                                         <Col xs='8' className="pl-0">
@@ -155,9 +154,9 @@ export default class Sales extends Component {
                                     </Row>
                                     <Row>
                                         <Col xs='8' className="pl-0">
-                                            <p><span className="pr-2"><img src={Avatar6}/></span>sabet</p>
+                                            <p><span className="pr-2"><img src={Avatar6} alt=""/></span>sabet</p>
                                         </Col>
-                                        <Col xs='4' className="right-side pr-0"><p><span className="pr-1"><img src={ListIcon}/></span>1.00</p></Col>
+                                        <Col xs='4' className="right-side pr-0"><p><span className="pr-1"><img src={ListIcon} alt=""/></span>1.00</p></Col>
                                     </Row>
                                    
                                 </Card.Body>

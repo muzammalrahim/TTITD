@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import {Row, Col, Container } from 'react-bootstrap';
-import {Link} from 'react-router-dom'
-import { FaCcVisa, FaCcPaypal,FaCcAmazonPay } from "react-icons/fa"
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 

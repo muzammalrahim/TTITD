@@ -4,7 +4,6 @@ import Header from '../../Components/Header';
 import BannerImg from '../../Pages/Home/BannerImg';
 import Gallery from '../../Pages/Home/Gallery';
 import Footer from '../../Components/FooterFolder/Footer';
-import CountDown from '../../Pages/Home/CountDown';
 import SimpleCountdownTimer from '../../Pages/Home/CountDown';
 import {Row, Col, Container } from 'react-bootstrap';
 import Sales from '../Home/Sales';
@@ -39,7 +38,7 @@ export default class Home extends Component {
                 {/* Counter */}
                 <div className='counter-main pt-5 pb-5'>
                     <Container>
-                        <Row>
+                        <Row className="pt-5 pb-5">
                             <Col xs={12} lg={8}>
                                 <div className='pb-4'>
                                     <h2>
@@ -72,8 +71,8 @@ export default class Home extends Component {
 
                 {/* Guest Editor*/}
                 <div className='guest-editor pt-5 pl-5'>
-                    <Container>
-                            <div className='inner-content'>
+                    <Container className="pb-5">
+                            <div className='inner-content pt-5 pb-5'>
                             <h3>Guest editor</h3>
                             <h3> Art rapture</h3>
                             <div className="gallery-btn mt-5">
@@ -88,13 +87,15 @@ export default class Home extends Component {
 
                 {/* Art Section*/}
                 <div className="art-sec pt-5">
-                    <Container>
-                    <div className='inner-content'>
-                        <h3>Collection</h3>
-                        <h3> 3D Art</h3>
-                        <div className="gallery-btn mt-5">
-                            <Link>View Collection</Link>
-                        </div>
+                    <Container className="pb-5">
+                    <div className='inner-content pt-5'>
+                        
+                            <h3>Collection</h3>
+                            <h3> 3D Art</h3>
+                            <div className="gallery-btn mt-5">
+                                <Link>View Collection</Link>
+                            </div>
+                        
                     </div>
                     </Container>
                 </div>
@@ -103,7 +104,7 @@ export default class Home extends Component {
                 {/* About*/}
                 <div className='about-nfts pt-5 pb-5'>
                     <Container>
-                        <Row>
+                        <Row className="pt-5 pb-5">
                             <Col lg='6'>
                                 <h1>What are NFTs?</h1>
                             </Col>
@@ -121,7 +122,7 @@ export default class Home extends Component {
                 {/* New Release*/}
                 <div className='new-release pt-5 '>
                     <Container>
-                        <div className='inner-content'>
+                        <div className='inner-content pt-5'>
                             <h3>New Release by</h3>
                             <h3> AGK42</h3>
                             <div className="gallery-btn mt-5">
@@ -134,33 +135,36 @@ export default class Home extends Component {
 
                 {/* Become Artist*/}
                 <div className='become-artist pt-5 pb-5'>
-                    <Container>
-                        <Row>
-                            <Col lg='6'>
-                                <h1>Become an artist on <br/>KnownOrigin</h1>
-                            </Col>
-                            <Col lg='6'>
-                                <p>
-                                    Join our community of creatives, showcase and sell your 
-                                    digital artworks.Digitally sign yourwork by creating a 
-                                    tokenized certificate.
-                                </p>
-                                <div className="gallery-btn mt-5">
-                                    <Link>Apply to Join</Link>
-                                </div>
-                            </Col>
-                        </Row>
-                    </Container>
+                    <div className="pt-3 pb-3">
+                        <Container>
+                            <Row className="pt-5 pb-4">
+                                <Col lg='6'>
+                                    <h1>Become an artist on <br/>KnownOrigin</h1>
+                                </Col>
+                                <Col lg='6'>
+                                    <p>
+                                        Join our community of creatives, showcase and sell your 
+                                        digital artworks.Digitally sign yourwork by creating a 
+                                        tokenized certificate.
+                                    </p>
+                                    <div className="gallery-btn mt-4 mb-4">
+                                        <Link>Apply to Join</Link>
+                                    </div>
+                                </Col>
+                            </Row>
+                        </Container>
+                    </div>
+                    
                 </div>
                 {/* Become Artist*/}
 
                 {/* Spot light sec*/}
                 <div className='spot-light pt-5'>
                     <Container>
-                        <div className='inner-content'>
+                        <div className='inner-content pt-5'>
                             <h3>Artist spotlight</h3>
                             <h3>Alex Shell</h3>
-                            <div className="gallery-btn mt-5">
+                            <div className="gallery-btn mt-4 mb-4">
                                 <Link>Read the Article</Link>
                             </div>
                         </div>
@@ -170,22 +174,25 @@ export default class Home extends Component {
 
                 {/* Join Community*/}
                 <div className='join-community pt-5 pb-5'>
-                    <Container>
-                        <Row>
-                            <Col lg='6'>
-                                <h1>Join our community</h1>
-                            </Col>
-                            <Col lg='6'>
-                                <p>
-                                Meet the KnownOrigin team, artist and collectors for platform updates, 
-                                announcements and more...
-                                </p>
-                                <div className="gallery-btn mt-5">
-                                    <Link>Launch Discord</Link>
-                                </div>
-                            </Col>
-                        </Row>
-                    </Container>
+                    <div className="pt-3 pb-3">
+                        <Container>
+                            <Row className="pt-5 pb-4">
+                                <Col lg='6'>
+                                    <h1>Join our community</h1>
+                                </Col>
+                                <Col lg='6'>
+                                    <p className="m-0">
+                                    Meet the KnownOrigin team, artist and collectors for platform updates, 
+                                    announcements and more...
+                                    </p>
+                                    <div className="gallery-btn mt-4 mb-4">
+                                        <Link>Launch Discord</Link>
+                                    </div>
+                                </Col>
+                            </Row>
+                        </Container>
+                    </div>
+                    
                 </div>
                 {/* Join Community*/}
 

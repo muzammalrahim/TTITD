@@ -1,11 +1,7 @@
 import React from 'react'
 import {Row, Col, Container } from 'react-bootstrap';
 import {Link} from 'react-router-dom'
-import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
-import Accordion from 'react-bootstrap/Accordion'
-import Card from 'react-bootstrap/Card'
-import { FaPhoneAlt, FaEnvelope, FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaGlobeAsia } from "react-icons/fa";
+import {FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn} from "react-icons/fa";
 import FooterLogo from '../../images/square_logo.jpg';
 
 
@@ -15,7 +11,7 @@ function Footer() {
             <Container>
             <div className='footer-inner'>
                     <div className='f-logo'>
-                        <img className='footer-img' src={FooterLogo}/>
+                        <img className='footer-img' src={FooterLogo} alt=""/>
                     </div>
                     <div className='footer-menu pt-2'>
                         <ul className='m-0'>

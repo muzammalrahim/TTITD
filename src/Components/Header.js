@@ -20,7 +20,7 @@ export default class Header extends Component {
                             <Row>  
                                 
                                 <Col xs="3">
-                                    <Link to ='/home'><img className="web-logo" src={Logo}/></Link>
+                                    <Link to ='/home'><img className="web-logo" src={Logo} alt=""/></Link>
                                     
                                 </Col>
                                 <Col xs="9">
@@ -50,8 +50,7 @@ export default class Header extends Component {
                                         
                                         </Nav>
                                     </div>
-                                </Col>
-                                
+                                </Col>  
                             </Row>
                             </div>
                             {/* web menu */}
@@ -61,25 +60,25 @@ export default class Header extends Component {
                                 <Row> 
                                     {/* web menu */}
                                     <div className="web-menu"></div>
-                                    <Col xs lg="4" xs="3">
+                                    <Col lg="4" xs="3">
                                         <div className="brand-name">        
-                                        <Link to ='/home'><img className="mob-logo" src={Logo}/></Link>
+                                        <Link to ='/home'><img className="mob-logo" src={Logo} alt=""/></Link>
                                         </div>
                                         
                                     </Col>
-                                    <Col xs lg="9" xs="9">
+                                    <Col lg="9" xs="9">
                                         <div className="home-menu">
-                                        <Navbar  expand="lg" w-100>
+                                        <Navbar className="p-0" expand="lg" w-100>
 
                                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                             <Navbar.Collapse id="basic-navbar-nav">
-                                                <Nav className="mr-auto border">
-                                                <Nav.Link href="#home">Home</Nav.Link>
+                                                <Nav className="m-auto border">
+                                                <Nav.Link href="#">Home</Nav.Link>
                                                 <Nav.Link eventKey="link-1">About</Nav.Link>
                                                 <Nav.Link eventKey="link-2">Gallery</Nav.Link>
-                                                <Nav.Link eventKey="link-2">Contact</Nav.Link>
-                                                <Nav.Link eventKey="link-2">Art</Nav.Link>
-                                                <Nav.Link eventKey="link-2">Events</Nav.Link>
+                                                <Nav.Link eventKey="link-3">Contact</Nav.Link>
+                                                <Nav.Link eventKey="link-4">Art</Nav.Link>
+                                                <Nav.Link eventKey="link-5">Events</Nav.Link>
                                                 </Nav>    
                                                 
                                             </Navbar.Collapse>

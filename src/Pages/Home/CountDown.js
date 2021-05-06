@@ -5,12 +5,12 @@ import "../../../node_modules/react-component-countdown-timer/lib/styles.css";
  
 class SimpleCountdownTimer extends React.Component {
   render() {
-    var settings = {
-      count: 5432,
-      border: true,
-      showTitle: true,
-      noPoints: true,
-    };
+    // var settings = {
+    //   count: 5432,
+    //   border: true,
+    //   showTitle: true,
+    //   noPoints: true,
+    // };
     return (
       <div className='countdown-main'>
         <CountdownTimer noPoints count={5432} size={40}/>
